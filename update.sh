@@ -9,7 +9,7 @@ chmod -R 777 /virtualbox
 sudo dpkg -i //virtualbox/32bit/VNC-5.3.2-Linux-x86-DEB/VNC-Viewer-5.3.2-Linux-x86.deb
 sudo apt-get install -f
 
-sudo dpkg i- //virtualbox/32bit/VNC-5.3.2-Linux-x86-DEB/VNC-Server-5.3.2-Linux-x86.deb
+sudo dpkg -i //virtualbox/32bit/VNC-5.3.2-Linux-x86-DEB/VNC-Server-5.3.2-Linux-x86.deb
 sudo apt-get install -f
 
 sudo dpkg -i //virtualbox/32bit/webmin_1.890_all.deb
