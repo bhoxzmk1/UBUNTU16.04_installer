@@ -1,6 +1,14 @@
-#
+#!/bin/bash
 
+
+
+
+apt install chromium-browser
 
 sudo apt update 
 
 sudo apt uprgade
+
+sudo apt remove firefox*
+
+sudo add-apt-repository ppa:mozillateam/ppa
