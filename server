@@ -1,8 +1,10 @@
 #!/bin/bash
 
 
-sudo apt-mark hold firefox
-sudo apt-mark hold thunderbird
+#chmod -R 777 update.sh
+
+#sudo apt-mark hold firefox
+#sudo apt-mark hold thunderbird
 
 chmod -R 777 /virtualbox
 
@@ -66,7 +68,8 @@ tar -xvzf //virtualbox/32bit/unixodbc_2.2.11.orig.tar.gz
 
 mv /home/smdv-dt/Desktop/unixODBC-2.2.11/ //virtualbox/32bit
 
-
+mv /home/smdv-dt/Desktop/Release.key //virtualbox/32bit
+mv /home/smdv-dt/Desktop/Release.key.1 //virtualbox/32bit
 #cd //virtualbox/32bit/unixODBC-2.2.11
 
 #./configure --enable-gui=no -y
@@ -76,7 +79,6 @@ mv /home/smdv-dt/Desktop/unixODBC-2.2.11/ //virtualbox/32bit
 #make install -y
 
 #sudo apt install unixodbc-bin -y
-
 
 
 
