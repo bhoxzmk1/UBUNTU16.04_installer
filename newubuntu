@@ -5,6 +5,8 @@
 
 apt install chromium-browser
 
+sudo apt install ssh
+
 sudo apt update 
 
 sudo apt uprgade
