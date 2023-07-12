@@ -20,43 +20,43 @@ sudo sed -i 's|http://ph.|http://|g' /etc/apt/sources.list
 
 #update
 sudo apt update
-sudo apt upgrade -y
+sudo apt upgrade 
 
 #install ing of needs
-sudo apt install gdebi -y
-sudo apt install mc -y
+sudo apt install gdebi 
+sudo apt install mc 
 
 #get 32bit folder 
 #chmod -R 777 /virtualbox 
 
-sudo add-apt-repository ppa:ubuntu-wine/ppa -y
-sudo wget https://dl.winehq.org/wine-builds/Release.key -y
+sudo add-apt-repository ppa:ubuntu-wine/ppa 
+sudo wget https://dl.winehq.org/wine-builds/Release.key 
 sudo apt update
-sudo apt install wine1.6 -y
-sudo apt --reinstall install msttcorefonts -y
-sudo apt --reinstall install ttf-mscorefonts-installer -y
+sudo apt install wine1.6 
+sudo apt --reinstall install msttcorefonts 
+sudo apt --reinstall install ttf-mscorefonts-installer 
 #configure wine (/Q/data and set to windows98)
 
-sudo apt install preload -y
-sudo apt install cifs-utils -y
-sudo apt install nfs-common -y
-sudo apt install ssh -y
-sudo apt install rsync -y
-sudo apt install convmv -y
-sudo apt install samba -y
-sudo apt install spark messenger -y
+sudo apt install preload 
+sudo apt install cifs-utils 
+sudo apt install nfs-common 
+sudo apt install ssh 
+sudo apt install rsync 
+sudo apt install convmv 
+sudo apt install samba 
+sudo apt install spark messenger 
 
 sudo apt remove firefox* 
 sudo add-apt-repository ppa:plasmazilla/releases 
 sudo apt update
-sudo apt install firefox-esr -y
-sudo apt install chromium-browser -y
+sudo apt install firefox-esr 
+#sudo apt install chromium-browser 
 
-sudo apt install virtualbox -y
-sudo apt install unity-tweak-tool -y
-sudo apt install compizconfig-services-manager -y
+sudo apt install virtualbox 
+sudo apt install unity-tweak-tool 
+sudo apt install compizconfig-services-manager 
 
-sudo apt install automake autoconf libtool -y
+sudo apt install automake autoconf libtool 
 
 
 rm -r //virtualbox/32bit/Spark
