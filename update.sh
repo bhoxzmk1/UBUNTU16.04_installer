@@ -1,8 +1,8 @@
 #!/bin/bash
 
 
-#sudo apt-mark hold firefox
-#sudo apt-mark hold thunderbird
+sudo apt-mark hold firefox
+sudo apt-mark hold thunderbird
 
 chmod -R 777 /virtualbox
 
