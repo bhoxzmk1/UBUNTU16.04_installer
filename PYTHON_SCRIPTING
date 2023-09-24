@@ -1,47 +1,4 @@
-
-
-
-
-#print("hello world")
-
-
-#if 5 > 2 :
-#    print("5 is grater than 2")
-
-
-
-
-
-#print('enter string here')
-#x = input()
-#print('this is the string you input ' + x)
-
-
-
-
-
-
-
-
-# Equals: a == b
-# Not Equals: a != b
-# Less than: a < b
-# Less than or equal to: a <= b
-# Greater than: a > b
-# Greater than or equal to: a >= b
-
-
-
-
-
-
-
-
-
-
-
-
-
+##### KEYBOARD LOCK SCRIPT #####
 
 
 
@@ -128,7 +85,7 @@
 
 
 
-
+##### CAMERA CONTROL SCRIPTS #####
 
 
 
@@ -196,52 +153,5 @@
 #     print('the code is bad')
 # else:
 #     print('error')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
