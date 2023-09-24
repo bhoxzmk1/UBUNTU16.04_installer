@@ -1,0 +1,252 @@
+
+
+
+
+
+
+
+
+
+#print("hello world")
+
+
+#if 5 > 2 :
+#    print("5 is grater than 2")
+
+
+
+
+
+#print('enter string here')
+#x = input()
+#print('this is the string you input ' + x)
+
+
+
+
+
+
+
+
+# Equals: a == b
+# Not Equals: a != b
+# Less than: a < b
+# Less than or equal to: a <= b
+# Greater than: a > b
+# Greater than or equal to: a >= b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# import pythoncom, pyHook 
+
+# def uMad(event):
+#     return False
+
+# hm = pyHook.HookManager()
+# hm.MouseAll = uMad
+# hm.KeyAll = uMad
+# hm.HookMouse()
+# hm.HookKeyboard()
+# pythoncom.PumpMessages()
+
+
+
+
+
+# import pyHook 
+# from threading import Timer
+# import win32gui
+# import logging
+
+# class blockInput():
+#     def OnKeyboardEvent(self,event):
+#         return False
+
+#     def OnMouseEvent(self,event):
+#         return False
+
+#     def unblock(self):
+#         logging.info(" -- Unblock!")
+#         if self.t.is_alive():
+#             self.t.cancel()
+#         try: self.hm.UnhookKeyboard()
+#         except: pass
+#         try: self.hm.UnhookMouse()
+#         except: pass
+
+#     def block(self, timeout = 10, keyboard = True, mouse = True):
+#         self.t = Timer(timeout, self.unblock)
+#         self.t.start()
+
+#         logging.info(" -- Block!")
+#         if mouse:
+#             self.hm.MouseAll = self.OnMouseEvent
+#             self.hm.HookMouse()
+#         if keyboard:
+#             self.hm.KeyAll = self.OnKeyboardEvent
+#             self.hm.HookKeyboard()
+#         win32gui.PumpWaitingMessages()
+
+#     def __init__(self):
+#         self.hm = pyHook.HookManager()
+
+# if __name__ == '__main__':
+#     logging.basicConfig(level=logging.INFO)
+
+#     block = blockInput()
+#     block.block()
+
+#     import time
+#     t0 = time.time()
+#     while time.time() - t0 < 10:
+#         time.sleep(1)
+#         print(time.time() - t0)
+
+#     block.unblock()
+#     logging.info("Done.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# import cv2
+
+
+# # Create a VideoCapture object to access the webcam (0 represents the default camera)
+# cap = cv2.VideoCapture(0)
+# # openvc_video_debug=1
+# # openvc_video_priority_msmf=0
+
+# # Check if the camera opened successfully
+# if not cap.isOpened():
+#     print("Error: Could not open the webcam.")
+#     exit()
+
+# while True:
+#     # Capture a frame from the webcam
+#     ret, frame = cap.read()
+
+#     # Display the captured frame
+#     cv2.imshow('Webcam', frame)
+
+#     # Break the loop if the 'q' key is pressed
+#     if cv2.waitKey(1) & 0xFF == ord('q'):
+#         break
+
+# # Release the webcam and close all OpenCV windows
+# cap.release()
+# cv2.destroyAllWindows()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# print('input string here')
+# testString = input()
+# if testString == 'good':
+#     print('the code is good')
+# elif testString == 'bad':
+#     print('the code is bad')
+# else:
+#     print('error')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
